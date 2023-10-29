@@ -6,7 +6,7 @@ YouTube shorts: <https://www.youtube.com/shorts/iiOM-0opG1Y>
 
 ## Skecth
 
-![alt text](https://github.com//brifeb/object-tracking-opencv/blob/master/img/schema.jpeg?raw=true)
+![alt text](https://github.com//brifeb/object-tracking-opencv/blob/master/schema.jpeg?raw=true)
 
 - servo 1 signal to pwm pin 9
 - servo 2 signal to pwm pin 10
