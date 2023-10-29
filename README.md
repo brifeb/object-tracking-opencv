@@ -1,5 +1,16 @@
 # Object Tracking using OpenCV control 2 dof servo (pan & tilt)
 
+## DEMO
+
+YouTube shorts: <https://www.youtube.com/shorts/iiOM-0opG1Y>
+
+## Skecth
+
+![alt text](https://github.com//brifeb/object-tracking-opencv/blob/master/img/schema.jpeg?raw=true)
+
+- servo 1 signal to pwm pin 9
+- servo 2 signal to pwm pin 10
+
 ## Libraries
 
 ### Python libs
@@ -28,7 +39,7 @@ pip install -r requirements.txt
 
 ## RUN
 
-(you may edit the serial port on the code)
+(you may edit the serial port on the code first)
 
 ### Tracking Face
 
@@ -42,12 +53,5 @@ python FaceTracking.py
 python HandTracking.py
 ```
 
-Controlling 2DOF Servo via WiFi (local) with HTML Webpage slider
-
-![alt text](https://github.com//brifeb/2DOF-Servo-WiFi-Control/blob/master/img/servo-control-page.png?raw=true)
-
-## Skecth
-
-![alt text](https://github.com//brifeb/2DOF-Servo-WiFi-Control/blob/master/img/sketch-wemos-servo.png?raw=true)
-
-Connect servo signal to pin D6 and pin D8
+***
+brifeb@  <http://ndoware.com> 2023

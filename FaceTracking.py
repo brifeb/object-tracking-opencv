@@ -12,9 +12,9 @@ if not cap.isOpened():
     print("Camera couldn't Access!!!")
     exit()
 
-
+# edit serial port here
+# port = "COM3"
 port = "/dev/tty.usbmodem14101"
-# port = "/dev/tty.Bluetooth-Incoming-Port"
 
 board = pyfirmata.Arduino(port)
 servo_pinX = board.get_pin('d:9:s') #pin 9 Arduino

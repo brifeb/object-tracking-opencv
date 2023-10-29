@@ -16,8 +16,9 @@ if not cap.isOpened():
 
 detector = HandDetector(detectionCon=0.7)
 
+# edit serial port here
+# port = "COM3"
 port = "/dev/tty.usbmodem14101"
-# port = "/dev/tty.Bluetooth-Incoming-Port"
 
 board = pyfirmata.Arduino(port)
 servo_pinX = board.get_pin('d:9:s')  # pin 9 Arduino
